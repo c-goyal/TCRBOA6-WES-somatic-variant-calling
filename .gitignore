@@ -1,0 +1,43 @@
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+
+# Alignment files
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+
+# VCF / large variant resources
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.vcf.gz.idx
+
+# Reference genomes
+reference/
+references/
+
+# Large databases
+databases/
+database/
+annotation_databases/
+
+# Temporary files
+tmp/
+temp/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
